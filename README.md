@@ -27,11 +27,11 @@ python tools/quant/export_onnx.py
 
 ## Main Results
 
-| config            | mAP      | NDS     | Latency   |
-|:--------:|:----------:|:---------:|:--------:|:--------:|:-------------:|
-PETR-vov-p4-800x320   | 37.8%     | 42.6%    | 64.8768 ms  |
-| PTQ                 | 32.89%    | 30.20%   | 31.5722 ms  | 
-| QAT                 | 30.94%    | 27.82%   |             |
+|config	               | mAP     |	NDS      	|Latency|
+|:--------:|:----------:|:---------:|:--------:|
+PETR-vov-p4-800x320	|   37.8%	|   42.6%	  | 64.8768 ms|
+PTQ                |    32.89%	 |  30.20%	 |  31.5722 ms|
+QAT	               |    30.94%	|   27.82%	||
 
 * QAT Due to limited personal resources, a single card 3080 single batch trained for 10 epochs, mAP has been rising, there should be room for improvement
 * onnx and pth will be pushed later
